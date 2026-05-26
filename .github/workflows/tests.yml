@@ -512,7 +512,7 @@ jobs:
       run: sct_testing
 
   containers:
-    name: Docker (Ubuntu Latest)
+    name: Containers (Ubuntu Latest)
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
